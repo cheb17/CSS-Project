@@ -1,0 +1,88 @@
+/*TAG SELECTOR*/
+
+body {
+
+    border-top: solid  #f4a7bb;
+    border-left: solid  #f4a7bb;
+    border-right: solid  #f4a7bb;
+    border-bottom: solid  #f4a7bb;
+    background-color: #000000;
+    color:#f4a7bb;
+    font-family: Helvetic,sans-serif;
+    height: 100%;
+    text-align: justify;
+    width: 100%;
+    margin: 0;
+   }
+
+h1{
+   color: #f4a7bb; 
+   font-family: Helvetica,sans-serif;
+   font-size: 40px;
+   margin-top: 30px;
+   position: relative;
+   text-align: center;
+   animation: name 18s infinite;
+}
+p{
+  text-transform: capitalize;
+  text-align-last: left;
+  color: #f4a7bb;
+  font-size: 15px;
+}
+
+
+/*CLASS SELECTOR*/
+.name{
+   color: #f4a7bb;
+   font-family: Helvetica,sans-serif;
+   font-size: 40px;
+   margin-top: 30px;
+   position: relative;
+   text-align: center; 
+}
+@keyframes name {
+  0% { 
+    margin-left:  100px
+     }
+  10% {
+   margin-left:  50px 
+    }
+  20% {
+   margin-right:  100px
+    }
+  30% {
+   margin-right:  50px 
+   }
+  40% { 
+    margin-left:  100px 
+   }
+  50% {
+   margin-left:  50px
+    }
+  60% {
+   margin-right:  100px
+    }
+  70% {
+   margin-right:  50px
+    }
+  80% {
+   margin-left:  100px
+    }
+  90% {
+   margin-left:  50px
+    }
+  100% {
+   margin-right:  100px
+    }
+}
+
+.design {
+  background-color: black;
+}
+.design a:hover{
+  background-color: black;
+}
+.design a:active{
+  background-color: #f4a7bb;
+}
